@@ -1,4 +1,53 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'hugo-theme-stack'
+baseURL = "https://stefanuk12.github.io/blog/"
+languageCode = "en-us"
+title = "The Brain"
+theme = "hugo-theme-stack"
+copyright = "Stefan Petrovic"
+
+[services.googleAnalytics]
+id = "G-37BN62PLSZ"
+
+[params.Sidebar]
+subtitle = "My thoughts on the world..."
+emoji = "🧠"
+avatar.src = "logo.png"
+
+[[params.widgets.homepage]]
+type = "search"
+
+[[params.widgets.homepage]]
+type = "archives"
+
+[params.widgets.homepage.params]
+limit = 5
+
+[[params.widgets.homepage]]
+type = "categories"
+
+[params.widgets.homepage.params]
+limit = 10
+
+[[params.widgets.homepage]]
+type = "tag-cloud"
+
+[params.widgets.homepage.params]
+limit = 10
+
+[[params.widgets.page]]
+type = "toc"
+
+[[menu.social]]
+identifier = "github"
+name = "GitHub"
+url = "https://github.com/Stefanuk12"
+
+[menu.social.params]
+icon = "brand-github"
+
+[[menu.social]]
+identifier = "discord"
+name = "Discord"
+url = "https://discordapp.com/users/398271060514045964"
+
+[menu.social.params]
+icon = "brand-discord"
