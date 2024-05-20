@@ -25,10 +25,10 @@ Programming is different from how it is in films. It is more complex than it see
 Mastering fundamental concepts is key. Once you do, you can learn any language you wish. If you understand these concepts, the only things you need to learn are the syntax, which should take little time, and the best practices, which can take a while to develop. Many of the skills you learn with one language can transfer to others, so it's best to be the master of one first rather than the jack of all trades but the master of none. There are far too many concepts to list, and you shouldn't learn each one by one. That is **not** how you learn to program.
 
 Learning to program is all about experience and trying things out. Set a simple goal like creating a terminal calculator app. Attempt to create it. If you ever get stuck, follow these three to four steps:
-- Google your *exact* issue
-- Look at the documentation (if applicable)
-- Ask AI about your issue
-- Ask someone else about your issue
+1. Google your *exact* issue
+2. Look at the documentation (if applicable)
+3. Ask AI about your issue
+4. Ask someone else about your issue
 
 Learning how to read documentation and Google is a vital skill that many beginners overlook. If you can Google and read documentation, you can find the answers to your questions much faster. Many people Google what they're trying to do. For example, they would Google "how to make ..." This is wrong. It would help if you were more specific. Let's make a hypothetical scenario. You can get the user input but are not sure how to make the user input a number. In this case, you should Google "convert string to number", followed by your programming language. Following the query with your programming language is essential as you will get answers for other languages that won't apply to you. As you learn, you will learn more terminology and, therefore, be able to express your question better. A more experienced programmer would Google "cast string to number [language]". 
 
